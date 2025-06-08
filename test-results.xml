@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="4" time="0.062" timestamp="2025-06-08T13:04:44.672768-05:00" hostname="DESKTOP-4IQV5M7"><testcase classname="tests.test_validator" name="test_valid_address" time="0.001"><failure message="AssertionError: assert False == True&#10; +  where False = is_valid_address('Av. Siempre Viva 742')">def test_valid_address():
+&gt;       assert is_valid_address("Av. Siempre Viva 742") == True
+E       AssertionError: assert False == True
+E        +  where False = is_valid_address('Av. Siempre Viva 742')
+
+tests\test_validator.py:3: AssertionError</failure></testcase><testcase classname="tests.test_validator" name="test_missing_number" time="0.000" /><testcase classname="tests.test_validator" name="test_empty_string" time="0.000" /><testcase classname="tests.test_validator" name="test_not_a_string" time="0.000" /></testsuite></testsuites>
